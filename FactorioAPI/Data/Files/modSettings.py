@@ -50,7 +50,7 @@ def readPropertyTree(f: io.BufferedReader | io.BytesIO) -> None | bool | float |
         return readDict(f,readPTString,readPropertyTree)
 
 def readModSettings(f: io.BufferedReader | io.BytesIO) -> dict:
-    """Reads the mod settings from a file.
+    """Reads the mod settings from a file or bytes buffer.
 
     Args:
         f (io.BufferedReader | io.BytesIO): A file-like object or bytes buffer.
