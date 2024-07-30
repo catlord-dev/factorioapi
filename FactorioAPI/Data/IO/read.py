@@ -128,7 +128,7 @@ def readFloat(f: io.BufferedReader | io.BytesIO) -> float:
     Returns:
         float: The bytes read as a float.
     """
-    return np.frombuffer(f.read(4), dtype=np.float32, count=1)[0]
+    return float(np.frombuffer(f.read(4), dtype=np.float32, count=1)[0])
 
 def readDouble(f: io.BufferedReader | io.BytesIO) -> float:
     """Reads 8 bytes and interprets them as a float.
@@ -139,7 +139,7 @@ def readDouble(f: io.BufferedReader | io.BytesIO) -> float:
     Returns:
         float: The bytes read as a float.
     """
-    return np.frombuffer(f.read(8), dtype=np.float64, count=1)[0]
+    return float(np.frombuffer(f.read(8), dtype=np.float64, count=1)[0])
 
 def readOptimizedNumber(f: io.BufferedReader | io.BytesIO) -> float:
     """Reads variable amount of bytes and interprets them as a int.
@@ -214,7 +214,7 @@ def readDict(f: io.BufferedReader | io.BytesIO, keyDecoder: Callable[[io.Buffere
         dict[key] = value
     return dict
     
-def readVersionString(f: io.BufferedReader | io.BytesIO) -> list[int]:
+def readVersionString(f: io.BufferedReader | io.BytesIO,returnString = False) -> list[int] | str:
     """Reads variable amount of bytes and interprets them as a version string.
 
     Args:
@@ -227,120 +227,9 @@ def readVersionString(f: io.BufferedReader | io.BytesIO) -> list[int]:
     minor = readUShort(f)
     patch = readUShort(f)
     dev = readUShort(f)
+    if returnString:
+        return f"{major}.{minor}.{patch}.{dev}"
     return [major,minor,patch,dev]
 
 
     
-
-# def decodeVersion(f):
-#     nums = []
-#     for i in range(4):
-#         nums.append(readUShort(f))
-#     return nums
-
-# def getTreeType(byte):
-#     if byte == 0:
-#         return None
-#     elif byte == 1:
-#         return "Bool"
-#     elif byte == 2:
-#         return "double"
-#     elif byte == 3:
-#         return "string"
-#     elif byte == 4:
-#         return "list"
-#     elif byte == 5:
-#         return "dict"
-    
-# def readBool(f):
-#     return True if f.read(1) == b"\x01" else False
-
-# def readByte(f):
-#     return int.from_bytes(f.read(1),"little",signed=True)
-
-# def readUByte(f):
-#     val = f.read(1)
-#     return int.from_bytes(val,"little",signed=False)
-
-# def readShort(f):
-#     return int.from_bytes(f.read(2),"little",signed=True)
-
-# def readUShort(f):
-#     val = f.read(2)
-#     return int.from_bytes(val,"little",signed=False)
-
-# def readInt(f):
-#     return int.from_bytes(f.read(4),"little",signed=True)
-
-# def readUInt(f):
-#     return int.from_bytes(f.read(4),"little",signed=False)
-
-# def readLong(f):
-#     return int.from_bytes(f.read(8),"little",signed=True)
-
-# def readULong(f):
-#     return int.from_bytes(f.read(8),"little",signed=False)
-
-# def readFloat(f):
-#     # return np.float32(f.read(4))
-#     return float(np.frombuffer(f.read(4),dtype=np.float32)[0])
-
-# def readDouble(f):
-#     # return np.float64(f.read(8))
-#     # bytess= f.read(8)
-#     # print(f"Bytes : {bytess}\nNumpy Conversion : {float(np.frombuffer(bytess,dtype=np.float64)[0])}\nAnd back : {np.float64(float(np.frombuffer(bytess,dtype=np.float64)[0])).tobytes()}\n")
-#     return float(np.frombuffer(f.read(8),dtype=np.float64)[0])
-
-# def readString(f):
-#     boo = readBool(f)
-#     if boo:
-#         return None
-#     length = readUByte(f)
-#     return f.read(length).decode("utf-8")
-
-# def readDict(f):
-#     dic = dict()
-#     # print(f.tell())
-#     numElements = readUInt(f)
-#     # print(f.tell())
-#     for i in range(numElements):
-#         key = readString(f)
-#         value = readPropTree(f)
-#         dic[key] = value
-#     return dic
-
-# def readList(f):
-#     numElements = readUInt(f)
-#     list = []
-#     for i in range(numElements):
-#         list.append(readPropTree(f))
-#     return list
-
-# def readPropTree(f):
-#     treeType = readUByte(f)
-#     readBool(f)
-#     if treeType == 0:
-#         return None
-#     elif treeType == 1:
-#         return readBool(f)
-#     elif treeType == 2:
-#         return readDouble(f)
-#     elif treeType == 3:
-#         return readString(f)
-#     elif treeType == 4:
-#         return readList(f)
-#     elif treeType == 5:
-#         return readDict(f)
-    
-# def readSettings(f):
-#     settings = dict()
-#     version = decodeVersion(f)
-#     # print(f.tell())
-#     # print(version)
-#     settings["version"] = version
-#     # print(f.tell())
-#     readBool(f) # who knows why they have it as such
-#     # print(f.tell())
-#     settings.update(readPropTree(f))
-#     return settings
-#     # print(f.tell())
