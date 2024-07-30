@@ -16,9 +16,6 @@ and thank you very much to whoever made it for it is so nice, whether it be the 
 """
 
 
-
-
-
 def readBool(f: io.BufferedReader | io.BytesIO) -> bool:
     """Reads a single byte and interprets it as a boolean value.
 
@@ -28,7 +25,8 @@ def readBool(f: io.BufferedReader | io.BytesIO) -> bool:
     Returns:
         bool: True if the byte read is b'\x01', otherwise False.
     """
-    return f.read(1) == b'\x01'
+    return f.read(1) == b"\x01"
+
 
 def readByte(f: io.BufferedReader | io.BytesIO) -> int:
     """Reads a single byte and interprets it as an integer.
@@ -39,7 +37,8 @@ def readByte(f: io.BufferedReader | io.BytesIO) -> int:
     Returns:
         int: The byte read as an integer.
     """
-    return int.from_bytes(f.read(1),"little",signed=True)
+    return int.from_bytes(f.read(1), "little", signed=True)
+
 
 def readUByte(f: io.BufferedReader | io.BytesIO) -> int:
     """Reads a single byte and interprets it as an unsigned integer.
@@ -50,7 +49,7 @@ def readUByte(f: io.BufferedReader | io.BytesIO) -> int:
     Returns:
         int: The byte read as an unsigned integer.
     """
-    return int.from_bytes(f.read(1),"little",signed=False)
+    return int.from_bytes(f.read(1), "little", signed=False)
 
 
 def readShort(f: io.BufferedReader | io.BytesIO) -> int:
@@ -62,7 +61,8 @@ def readShort(f: io.BufferedReader | io.BytesIO) -> int:
     Returns:
         int: The bytes read as a signed integer.
     """
-    return int.from_bytes(f.read(2),"little",signed=True)
+    return int.from_bytes(f.read(2), "little", signed=True)
+
 
 def readUShort(f: io.BufferedReader | io.BytesIO) -> int:
     """Reads 2 bytes and interprets them as an unsigned integer.
@@ -73,7 +73,8 @@ def readUShort(f: io.BufferedReader | io.BytesIO) -> int:
     Returns:
         int: The bytes read as an unsigned integer.
     """
-    return int.from_bytes(f.read(2),"little",signed=False)
+    return int.from_bytes(f.read(2), "little", signed=False)
+
 
 def readInt(f: io.BufferedReader | io.BytesIO) -> int:
     """Reads 4 bytes and interprets them as a signed integer.
@@ -84,7 +85,8 @@ def readInt(f: io.BufferedReader | io.BytesIO) -> int:
     Returns:
         int: The bytes read as a signed integer.
     """
-    return int.from_bytes(f.read(4),"little",signed=True)
+    return int.from_bytes(f.read(4), "little", signed=True)
+
 
 def readUInt(f: io.BufferedReader | io.BytesIO) -> int:
     """Reads 4 bytes and interprets them as an unsigned integer.
@@ -95,7 +97,8 @@ def readUInt(f: io.BufferedReader | io.BytesIO) -> int:
     Returns:
         int: The bytes read as an unsigned integer.
     """
-    return int.from_bytes(f.read(4),"little",signed=False)
+    return int.from_bytes(f.read(4), "little", signed=False)
+
 
 def readLong(f: io.BufferedReader | io.BytesIO) -> int:
     """Reads 8 bytes and interprets them as a signed integer.
@@ -106,7 +109,8 @@ def readLong(f: io.BufferedReader | io.BytesIO) -> int:
     Returns:
         int: The bytes read as a signed integer.
     """
-    return int.from_bytes(f.read(8),"little",signed=True)
+    return int.from_bytes(f.read(8), "little", signed=True)
+
 
 def readULong(f: io.BufferedReader | io.BytesIO) -> int:
     """Reads 8 bytes and interprets them as an unsigned integer.
@@ -117,7 +121,8 @@ def readULong(f: io.BufferedReader | io.BytesIO) -> int:
     Returns:
         int: The bytes read as an unsigned integer.
     """
-    return int.from_bytes(f.read(8),"little",signed=False)
+    return int.from_bytes(f.read(8), "little", signed=False)
+
 
 def readFloat(f: io.BufferedReader | io.BytesIO) -> float:
     """Reads 4 bytes and interprets them as a float.
@@ -130,6 +135,7 @@ def readFloat(f: io.BufferedReader | io.BytesIO) -> float:
     """
     return float(np.frombuffer(f.read(4), dtype=np.float32, count=1)[0])
 
+
 def readDouble(f: io.BufferedReader | io.BytesIO) -> float:
     """Reads 8 bytes and interprets them as a float.
 
@@ -140,6 +146,7 @@ def readDouble(f: io.BufferedReader | io.BytesIO) -> float:
         float: The bytes read as a float.
     """
     return float(np.frombuffer(f.read(8), dtype=np.float64, count=1)[0])
+
 
 def readOptimizedNumber(f: io.BufferedReader | io.BytesIO) -> float:
     """Reads variable amount of bytes and interprets them as a int.
@@ -156,9 +163,9 @@ def readOptimizedNumber(f: io.BufferedReader | io.BytesIO) -> float:
         f.seek(f.tell() - 1)
         number = readUInt(f)
     return number
-    
 
-def readString(f: io.BufferedReader | io.BytesIO,spaceOptimized = False) -> str:
+
+def readString(f: io.BufferedReader | io.BytesIO, spaceOptimized=False) -> str:
     """Reads variable amount of bytes and interprets them as a string.
 
     Args:
@@ -174,7 +181,12 @@ def readString(f: io.BufferedReader | io.BytesIO,spaceOptimized = False) -> str:
         dataLength = readUInt(f)
     return f.read(dataLength).decode("utf-8")
 
-def readArray(f: io.BufferedReader | io.BytesIO, objectDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],spaceOptimized = False) -> list:
+
+def readArray(
+    f: io.BufferedReader | io.BytesIO,
+    objectDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],
+    spaceOptimized=False,
+) -> list:
     """Reads variable amount of bytes and interprets them as an array.
 
     Args:
@@ -192,8 +204,14 @@ def readArray(f: io.BufferedReader | io.BytesIO, objectDecoder: Callable[[io.Buf
     for i in range(arrayLength):
         array.append(objectDecoder(f))
     return array
-    
-def readDict(f: io.BufferedReader | io.BytesIO, keyDecoder: Callable[[io.BufferedReader | io.BytesIO], Any], valueDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],spaceOptimized = False) -> dict:
+
+
+def readDict(
+    f: io.BufferedReader | io.BytesIO,
+    keyDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],
+    valueDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],
+    spaceOptimized=False,
+) -> dict:
     """Reads variable amount of bytes and interprets them as a dictionary.
     Args:
         f (io.BufferedReader | io.BytesIO): A file-like object or bytes buffer.
@@ -213,8 +231,11 @@ def readDict(f: io.BufferedReader | io.BytesIO, keyDecoder: Callable[[io.Buffere
         value = valueDecoder(f)
         dict[key] = value
     return dict
-    
-def readVersionString(f: io.BufferedReader | io.BytesIO,returnString = False) -> list[int] | str:
+
+
+def readVersionString(
+    f: io.BufferedReader | io.BytesIO, returnString=False
+) -> list[int] | str:
     """Reads variable amount of bytes and interprets them as a version string.
 
     Args:
@@ -229,7 +250,4 @@ def readVersionString(f: io.BufferedReader | io.BytesIO,returnString = False) ->
     dev = readUShort(f)
     if returnString:
         return f"{major}.{minor}.{patch}.{dev}"
-    return [major,minor,patch,dev]
-
-
-    
+    return [major, minor, patch, dev]
