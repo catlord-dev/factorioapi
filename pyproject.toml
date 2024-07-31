@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0","numpy>=2.0.1","requests>=2.32.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FactorioAPI"
+version = "1.0.0"
+authors = [
+  { name="Cat Lord"},
+]
+description = "A Python library to interact with the Factorio API and related files"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/catlord-dev/factorioapi"
+Issues = "https://github.com/catlord-dev/factorioapi/issues"
+
