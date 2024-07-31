@@ -236,7 +236,7 @@ def readDict(
 def readVersionString(
     f: io.BufferedReader | io.BytesIO, returnString=False
 ) -> list[int] | str:
-    """Reads variable amount of bytes and interprets them as a version string.
+    """Reads 8 amount of bytes and interprets them as a version string.
 
     Args:
         f (io.BufferedReader | io.BytesIO): A file-like object or bytes buffer.
