@@ -1,0 +1,6566 @@
+{
+    "version": [
+        1,
+        1,
+        109,
+        0
+    ],
+    "randomBool": false,
+    "header": [
+        {
+            "type": "achievement",
+            "achs": [
+                {
+                    "name": "so-long-and-thanks-for-all-the-fish",
+                    "index": 41
+                }
+            ]
+        },
+        {
+            "type": "build-entity-achievement",
+            "achs": [
+                {
+                    "name": "getting-on-track",
+                    "index": 1
+                },
+                {
+                    "name": "getting-on-track-like-a-pro",
+                    "index": 17
+                }
+            ]
+        },
+        {
+            "type": "combat-robot-count",
+            "achs": [
+                {
+                    "name": "minions",
+                    "index": 34
+                }
+            ]
+        },
+        {
+            "type": "construct-with-robots-achievement",
+            "achs": [
+                {
+                    "name": "automated-construction",
+                    "index": 9
+                },
+                {
+                    "name": "you-are-doing-it-right",
+                    "index": 10
+                }
+            ]
+        },
+        {
+            "type": "deconstruct-with-robots-achievement",
+            "achs": [
+                {
+                    "name": "automated-cleanup",
+                    "index": 11
+                }
+            ]
+        },
+        {
+            "type": "deliver-by-robots-achievement",
+            "achs": [
+                {
+                    "name": "you-have-got-a-package",
+                    "index": 12
+                },
+                {
+                    "name": "delivery-service",
+                    "index": 13
+                }
+            ]
+        },
+        {
+            "type": "dont-build-entity-achievement",
+            "achs": [
+                {
+                    "name": "raining-bullets",
+                    "index": 37
+                },
+                {
+                    "name": "logistic-network-embargo",
+                    "index": 38
+                }
+            ]
+        },
+        {
+            "type": "dont-craft-manually-achievement",
+            "achs": [
+                {
+                    "name": "lazy-bastard",
+                    "index": 35
+                }
+            ]
+        },
+        {
+            "type": "dont-use-entity-in-energy-production-achievement",
+            "achs": [
+                {
+                    "name": "solaris",
+                    "index": 30
+                },
+                {
+                    "name": "steam-all-the-way",
+                    "index": 36
+                }
+            ]
+        },
+        {
+            "type": "finish-the-game-achievement",
+            "achs": [
+                {
+                    "name": "smoke-me-a-kipper-i-will-be-back-for-breakfast",
+                    "index": 4
+                },
+                {
+                    "name": "no-time-for-chitchat",
+                    "index": 39
+                },
+                {
+                    "name": "there-is-no-spoon",
+                    "index": 40
+                }
+            ]
+        },
+        {
+            "type": "group-attack-achievement",
+            "achs": [
+                {
+                    "name": "it-stinks-and-they-dont-like-it",
+                    "index": 8
+                }
+            ]
+        },
+        {
+            "type": "kill-achievement",
+            "achs": [
+                {
+                    "name": "steamrolled",
+                    "index": 31
+                },
+                {
+                    "name": "pyromaniac",
+                    "index": 32
+                },
+                {
+                    "name": "run-forrest-run",
+                    "index": 33
+                }
+            ]
+        },
+        {
+            "type": "player-damaged-achievement",
+            "achs": [
+                {
+                    "name": "watch-your-step",
+                    "index": 15
+                },
+                {
+                    "name": "golem",
+                    "index": 16
+                }
+            ]
+        },
+        {
+            "type": "produce-achievement",
+            "achs": [
+                {
+                    "name": "iron-chest-production",
+                    "index": 5
+                },
+                {
+                    "name": "iron-chest-surplus",
+                    "index": 6
+                },
+                {
+                    "name": "iron-chest-overflow",
+                    "index": 7
+                },
+                {
+                    "name": "mass-production-1",
+                    "index": 18
+                },
+                {
+                    "name": "mass-production-2",
+                    "index": 19
+                },
+                {
+                    "name": "mass-production-3",
+                    "index": 20
+                },
+                {
+                    "name": "accumulator-overflow",
+                    "index": 42
+                },
+                {
+                    "name": "accumulator-production",
+                    "index": 43
+                },
+                {
+                    "name": "accumulator-surplus",
+                    "index": 44
+                },
+                {
+                    "name": "arithmetic-combinator-overflow",
+                    "index": 48
+                },
+                {
+                    "name": "arithmetic-combinator-production",
+                    "index": 49
+                },
+                {
+                    "name": "arithmetic-combinator-surplus",
+                    "index": 50
+                },
+                {
+                    "name": "artillery-shell-overflow",
+                    "index": 51
+                },
+                {
+                    "name": "artillery-shell-production",
+                    "index": 52
+                },
+                {
+                    "name": "artillery-shell-surplus",
+                    "index": 53
+                },
+                {
+                    "name": "artillery-turret-overflow",
+                    "index": 54
+                },
+                {
+                    "name": "artillery-turret-production",
+                    "index": 55
+                },
+                {
+                    "name": "artillery-turret-surplus",
+                    "index": 56
+                },
+                {
+                    "name": "artillery-wagon-overflow",
+                    "index": 57
+                },
+                {
+                    "name": "artillery-wagon-production",
+                    "index": 58
+                },
+                {
+                    "name": "artillery-wagon-surplus",
+                    "index": 59
+                },
+                {
+                    "name": "assembling-machine-1-overflow",
+                    "index": 60
+                },
+                {
+                    "name": "assembling-machine-1-production",
+                    "index": 61
+                },
+                {
+                    "name": "assembling-machine-1-surplus",
+                    "index": 62
+                },
+                {
+                    "name": "assembling-machine-2-overflow",
+                    "index": 63
+                },
+                {
+                    "name": "assembling-machine-2-production",
+                    "index": 64
+                },
+                {
+                    "name": "assembling-machine-2-surplus",
+                    "index": 65
+                },
+                {
+                    "name": "assembling-machine-3-overflow",
+                    "index": 66
+                },
+                {
+                    "name": "assembling-machine-3-production",
+                    "index": 67
+                },
+                {
+                    "name": "assembling-machine-3-surplus",
+                    "index": 68
+                },
+                {
+                    "name": "atomic-bomb-overflow",
+                    "index": 69
+                },
+                {
+                    "name": "atomic-bomb-production",
+                    "index": 70
+                },
+                {
+                    "name": "atomic-bomb-surplus",
+                    "index": 71
+                },
+                {
+                    "name": "battery-equipment-overflow",
+                    "index": 75
+                },
+                {
+                    "name": "battery-equipment-production",
+                    "index": 76
+                },
+                {
+                    "name": "battery-equipment-surplus",
+                    "index": 77
+                },
+                {
+                    "name": "battery-mk2-equipment-overflow",
+                    "index": 78
+                },
+                {
+                    "name": "battery-mk2-equipment-production",
+                    "index": 79
+                },
+                {
+                    "name": "battery-mk2-equipment-surplus",
+                    "index": 80
+                },
+                {
+                    "name": "beacon-overflow",
+                    "index": 84
+                },
+                {
+                    "name": "beacon-production",
+                    "index": 85
+                },
+                {
+                    "name": "beacon-surplus",
+                    "index": 86
+                },
+                {
+                    "name": "belt-immunity-equipment-overflow",
+                    "index": 87
+                },
+                {
+                    "name": "belt-immunity-equipment-production",
+                    "index": 88
+                },
+                {
+                    "name": "belt-immunity-equipment-surplus",
+                    "index": 89
+                },
+                {
+                    "name": "big-electric-pole-overflow",
+                    "index": 90
+                },
+                {
+                    "name": "big-electric-pole-production",
+                    "index": 91
+                },
+                {
+                    "name": "big-electric-pole-surplus",
+                    "index": 92
+                },
+                {
+                    "name": "boiler-overflow",
+                    "index": 93
+                },
+                {
+                    "name": "boiler-production",
+                    "index": 94
+                },
+                {
+                    "name": "boiler-surplus",
+                    "index": 95
+                },
+                {
+                    "name": "burner-inserter-overflow",
+                    "index": 96
+                },
+                {
+                    "name": "burner-inserter-production",
+                    "index": 97
+                },
+                {
+                    "name": "burner-inserter-surplus",
+                    "index": 98
+                },
+                {
+                    "name": "burner-mining-drill-overflow",
+                    "index": 99
+                },
+                {
+                    "name": "burner-mining-drill-production",
+                    "index": 100
+                },
+                {
+                    "name": "burner-mining-drill-surplus",
+                    "index": 101
+                },
+                {
+                    "name": "cannon-shell-overflow",
+                    "index": 102
+                },
+                {
+                    "name": "cannon-shell-production",
+                    "index": 103
+                },
+                {
+                    "name": "cannon-shell-surplus",
+                    "index": 104
+                },
+                {
+                    "name": "car-overflow",
+                    "index": 105
+                },
+                {
+                    "name": "car-production",
+                    "index": 106
+                },
+                {
+                    "name": "car-surplus",
+                    "index": 107
+                },
+                {
+                    "name": "cargo-wagon-overflow",
+                    "index": 108
+                },
+                {
+                    "name": "cargo-wagon-production",
+                    "index": 109
+                },
+                {
+                    "name": "cargo-wagon-surplus",
+                    "index": 110
+                },
+                {
+                    "name": "centrifuge-overflow",
+                    "index": 111
+                },
+                {
+                    "name": "centrifuge-production",
+                    "index": 112
+                },
+                {
+                    "name": "centrifuge-surplus",
+                    "index": 113
+                },
+                {
+                    "name": "cliff-explosives-overflow",
+                    "index": 117
+                },
+                {
+                    "name": "cliff-explosives-production",
+                    "index": 118
+                },
+                {
+                    "name": "cliff-explosives-surplus",
+                    "index": 119
+                },
+                {
+                    "name": "cluster-grenade-overflow",
+                    "index": 120
+                },
+                {
+                    "name": "cluster-grenade-production",
+                    "index": 121
+                },
+                {
+                    "name": "cluster-grenade-surplus",
+                    "index": 122
+                },
+                {
+                    "name": "combat-shotgun-overflow",
+                    "index": 123
+                },
+                {
+                    "name": "combat-shotgun-production",
+                    "index": 124
+                },
+                {
+                    "name": "combat-shotgun-surplus",
+                    "index": 125
+                },
+                {
+                    "name": "concrete-overflow",
+                    "index": 126
+                },
+                {
+                    "name": "concrete-production",
+                    "index": 127
+                },
+                {
+                    "name": "concrete-surplus",
+                    "index": 128
+                },
+                {
+                    "name": "constant-combinator-overflow",
+                    "index": 129
+                },
+                {
+                    "name": "constant-combinator-production",
+                    "index": 130
+                },
+                {
+                    "name": "constant-combinator-surplus",
+                    "index": 131
+                },
+                {
+                    "name": "construction-robot-overflow",
+                    "index": 132
+                },
+                {
+                    "name": "construction-robot-production",
+                    "index": 133
+                },
+                {
+                    "name": "construction-robot-surplus",
+                    "index": 134
+                },
+                {
+                    "name": "decider-combinator-overflow",
+                    "index": 144
+                },
+                {
+                    "name": "decider-combinator-production",
+                    "index": 145
+                },
+                {
+                    "name": "decider-combinator-surplus",
+                    "index": 146
+                },
+                {
+                    "name": "defender-capsule-overflow",
+                    "index": 147
+                },
+                {
+                    "name": "defender-capsule-production",
+                    "index": 148
+                },
+                {
+                    "name": "defender-capsule-surplus",
+                    "index": 149
+                },
+                {
+                    "name": "destroyer-capsule-overflow",
+                    "index": 150
+                },
+                {
+                    "name": "destroyer-capsule-production",
+                    "index": 151
+                },
+                {
+                    "name": "destroyer-capsule-surplus",
+                    "index": 152
+                },
+                {
+                    "name": "discharge-defense-equipment-overflow",
+                    "index": 153
+                },
+                {
+                    "name": "discharge-defense-equipment-production",
+                    "index": 154
+                },
+                {
+                    "name": "discharge-defense-equipment-surplus",
+                    "index": 155
+                },
+                {
+                    "name": "distractor-capsule-overflow",
+                    "index": 156
+                },
+                {
+                    "name": "distractor-capsule-production",
+                    "index": 157
+                },
+                {
+                    "name": "distractor-capsule-surplus",
+                    "index": 158
+                },
+                {
+                    "name": "effectivity-module-2-overflow",
+                    "index": 159
+                },
+                {
+                    "name": "effectivity-module-2-production",
+                    "index": 160
+                },
+                {
+                    "name": "effectivity-module-2-surplus",
+                    "index": 161
+                },
+                {
+                    "name": "effectivity-module-3-overflow",
+                    "index": 162
+                },
+                {
+                    "name": "effectivity-module-3-production",
+                    "index": 163
+                },
+                {
+                    "name": "effectivity-module-3-surplus",
+                    "index": 164
+                },
+                {
+                    "name": "effectivity-module-overflow",
+                    "index": 165
+                },
+                {
+                    "name": "effectivity-module-production",
+                    "index": 166
+                },
+                {
+                    "name": "effectivity-module-surplus",
+                    "index": 167
+                },
+                {
+                    "name": "electric-mining-drill-overflow",
+                    "index": 174
+                },
+                {
+                    "name": "electric-mining-drill-production",
+                    "index": 175
+                },
+                {
+                    "name": "electric-mining-drill-surplus",
+                    "index": 176
+                },
+                {
+                    "name": "energy-shield-equipment-overflow",
+                    "index": 180
+                },
+                {
+                    "name": "energy-shield-equipment-production",
+                    "index": 181
+                },
+                {
+                    "name": "energy-shield-equipment-surplus",
+                    "index": 182
+                },
+                {
+                    "name": "energy-shield-mk2-equipment-overflow",
+                    "index": 183
+                },
+                {
+                    "name": "energy-shield-mk2-equipment-production",
+                    "index": 184
+                },
+                {
+                    "name": "energy-shield-mk2-equipment-surplus",
+                    "index": 185
+                },
+                {
+                    "name": "exoskeleton-equipment-overflow",
+                    "index": 189
+                },
+                {
+                    "name": "exoskeleton-equipment-production",
+                    "index": 190
+                },
+                {
+                    "name": "exoskeleton-equipment-surplus",
+                    "index": 191
+                },
+                {
+                    "name": "explosive-cannon-shell-overflow",
+                    "index": 192
+                },
+                {
+                    "name": "explosive-cannon-shell-production",
+                    "index": 193
+                },
+                {
+                    "name": "explosive-cannon-shell-surplus",
+                    "index": 194
+                },
+                {
+                    "name": "explosive-rocket-overflow",
+                    "index": 195
+                },
+                {
+                    "name": "explosive-rocket-production",
+                    "index": 196
+                },
+                {
+                    "name": "explosive-rocket-surplus",
+                    "index": 197
+                },
+                {
+                    "name": "explosive-uranium-cannon-shell-overflow",
+                    "index": 198
+                },
+                {
+                    "name": "explosive-uranium-cannon-shell-production",
+                    "index": 199
+                },
+                {
+                    "name": "explosive-uranium-cannon-shell-surplus",
+                    "index": 200
+                },
+                {
+                    "name": "explosives-overflow",
+                    "index": 201
+                },
+                {
+                    "name": "explosives-production",
+                    "index": 202
+                },
+                {
+                    "name": "explosives-surplus",
+                    "index": 203
+                },
+                {
+                    "name": "express-splitter-overflow",
+                    "index": 204
+                },
+                {
+                    "name": "express-splitter-production",
+                    "index": 205
+                },
+                {
+                    "name": "express-splitter-surplus",
+                    "index": 206
+                },
+                {
+                    "name": "express-transport-belt-overflow",
+                    "index": 207
+                },
+                {
+                    "name": "express-transport-belt-production",
+                    "index": 208
+                },
+                {
+                    "name": "express-transport-belt-surplus",
+                    "index": 209
+                },
+                {
+                    "name": "express-underground-belt-overflow",
+                    "index": 210
+                },
+                {
+                    "name": "express-underground-belt-production",
+                    "index": 211
+                },
+                {
+                    "name": "express-underground-belt-surplus",
+                    "index": 212
+                },
+                {
+                    "name": "fast-inserter-overflow",
+                    "index": 213
+                },
+                {
+                    "name": "fast-inserter-production",
+                    "index": 214
+                },
+                {
+                    "name": "fast-inserter-surplus",
+                    "index": 215
+                },
+                {
+                    "name": "fast-splitter-overflow",
+                    "index": 216
+                },
+                {
+                    "name": "fast-splitter-production",
+                    "index": 217
+                },
+                {
+                    "name": "fast-splitter-surplus",
+                    "index": 218
+                },
+                {
+                    "name": "fast-transport-belt-overflow",
+                    "index": 219
+                },
+                {
+                    "name": "fast-transport-belt-production",
+                    "index": 220
+                },
+                {
+                    "name": "fast-transport-belt-surplus",
+                    "index": 221
+                },
+                {
+                    "name": "fast-underground-belt-overflow",
+                    "index": 222
+                },
+                {
+                    "name": "fast-underground-belt-production",
+                    "index": 223
+                },
+                {
+                    "name": "fast-underground-belt-surplus",
+                    "index": 224
+                },
+                {
+                    "name": "filter-inserter-overflow",
+                    "index": 225
+                },
+                {
+                    "name": "filter-inserter-production",
+                    "index": 226
+                },
+                {
+                    "name": "filter-inserter-surplus",
+                    "index": 227
+                },
+                {
+                    "name": "flamethrower-ammo-overflow",
+                    "index": 231
+                },
+                {
+                    "name": "flamethrower-ammo-production",
+                    "index": 232
+                },
+                {
+                    "name": "flamethrower-ammo-surplus",
+                    "index": 233
+                },
+                {
+                    "name": "flamethrower-overflow",
+                    "index": 234
+                },
+                {
+                    "name": "flamethrower-production",
+                    "index": 235
+                },
+                {
+                    "name": "flamethrower-surplus",
+                    "index": 236
+                },
+                {
+                    "name": "flamethrower-turret-overflow",
+                    "index": 237
+                },
+                {
+                    "name": "flamethrower-turret-production",
+                    "index": 238
+                },
+                {
+                    "name": "flamethrower-turret-surplus",
+                    "index": 239
+                },
+                {
+                    "name": "fluid-wagon-overflow",
+                    "index": 240
+                },
+                {
+                    "name": "fluid-wagon-production",
+                    "index": 241
+                },
+                {
+                    "name": "fluid-wagon-surplus",
+                    "index": 242
+                },
+                {
+                    "name": "fusion-reactor-equipment-overflow",
+                    "index": 246
+                },
+                {
+                    "name": "fusion-reactor-equipment-production",
+                    "index": 247
+                },
+                {
+                    "name": "fusion-reactor-equipment-surplus",
+                    "index": 248
+                },
+                {
+                    "name": "gate-overflow",
+                    "index": 249
+                },
+                {
+                    "name": "gate-production",
+                    "index": 250
+                },
+                {
+                    "name": "gate-surplus",
+                    "index": 251
+                },
+                {
+                    "name": "green-wire-overflow",
+                    "index": 252
+                },
+                {
+                    "name": "green-wire-production",
+                    "index": 253
+                },
+                {
+                    "name": "green-wire-surplus",
+                    "index": 254
+                },
+                {
+                    "name": "gun-turret-overflow",
+                    "index": 258
+                },
+                {
+                    "name": "gun-turret-production",
+                    "index": 259
+                },
+                {
+                    "name": "gun-turret-surplus",
+                    "index": 260
+                },
+                {
+                    "name": "hazard-concrete-overflow",
+                    "index": 261
+                },
+                {
+                    "name": "hazard-concrete-production",
+                    "index": 262
+                },
+                {
+                    "name": "hazard-concrete-surplus",
+                    "index": 263
+                },
+                {
+                    "name": "heat-exchanger-overflow",
+                    "index": 264
+                },
+                {
+                    "name": "heat-exchanger-production",
+                    "index": 265
+                },
+                {
+                    "name": "heat-exchanger-surplus",
+                    "index": 266
+                },
+                {
+                    "name": "heat-pipe-overflow",
+                    "index": 267
+                },
+                {
+                    "name": "heat-pipe-production",
+                    "index": 268
+                },
+                {
+                    "name": "heat-pipe-surplus",
+                    "index": 269
+                },
+                {
+                    "name": "heavy-armor-overflow",
+                    "index": 270
+                },
+                {
+                    "name": "heavy-armor-production",
+                    "index": 271
+                },
+                {
+                    "name": "heavy-armor-surplus",
+                    "index": 272
+                },
+                {
+                    "name": "inserter-overflow",
+                    "index": 276
+                },
+                {
+                    "name": "inserter-production",
+                    "index": 277
+                },
+                {
+                    "name": "inserter-surplus",
+                    "index": 278
+                },
+                {
+                    "name": "lab-overflow",
+                    "index": 288
+                },
+                {
+                    "name": "lab-production",
+                    "index": 289
+                },
+                {
+                    "name": "lab-surplus",
+                    "index": 290
+                },
+                {
+                    "name": "land-mine-overflow",
+                    "index": 291
+                },
+                {
+                    "name": "land-mine-production",
+                    "index": 292
+                },
+                {
+                    "name": "land-mine-surplus",
+                    "index": 293
+                },
+                {
+                    "name": "landfill-overflow",
+                    "index": 294
+                },
+                {
+                    "name": "landfill-production",
+                    "index": 295
+                },
+                {
+                    "name": "landfill-surplus",
+                    "index": 296
+                },
+                {
+                    "name": "laser-turret-overflow",
+                    "index": 297
+                },
+                {
+                    "name": "laser-turret-production",
+                    "index": 298
+                },
+                {
+                    "name": "laser-turret-surplus",
+                    "index": 299
+                },
+                {
+                    "name": "light-armor-overflow",
+                    "index": 300
+                },
+                {
+                    "name": "light-armor-production",
+                    "index": 301
+                },
+                {
+                    "name": "light-armor-surplus",
+                    "index": 302
+                },
+                {
+                    "name": "locomotive-overflow",
+                    "index": 306
+                },
+                {
+                    "name": "locomotive-production",
+                    "index": 307
+                },
+                {
+                    "name": "locomotive-surplus",
+                    "index": 308
+                },
+                {
+                    "name": "logistic-chest-active-provider-overflow",
+                    "index": 309
+                },
+                {
+                    "name": "logistic-chest-active-provider-production",
+                    "index": 310
+                },
+                {
+                    "name": "logistic-chest-active-provider-surplus",
+                    "index": 311
+                },
+                {
+                    "name": "logistic-chest-buffer-overflow",
+                    "index": 312
+                },
+                {
+                    "name": "logistic-chest-buffer-production",
+                    "index": 313
+                },
+                {
+                    "name": "logistic-chest-buffer-surplus",
+                    "index": 314
+                },
+                {
+                    "name": "logistic-chest-passive-provider-overflow",
+                    "index": 315
+                },
+                {
+                    "name": "logistic-chest-passive-provider-production",
+                    "index": 316
+                },
+                {
+                    "name": "logistic-chest-passive-provider-surplus",
+                    "index": 317
+                },
+                {
+                    "name": "logistic-chest-requester-overflow",
+                    "index": 318
+                },
+                {
+                    "name": "logistic-chest-requester-production",
+                    "index": 319
+                },
+                {
+                    "name": "logistic-chest-requester-surplus",
+                    "index": 320
+                },
+                {
+                    "name": "logistic-chest-storage-overflow",
+                    "index": 321
+                },
+                {
+                    "name": "logistic-chest-storage-production",
+                    "index": 322
+                },
+                {
+                    "name": "logistic-chest-storage-surplus",
+                    "index": 323
+                },
+                {
+                    "name": "logistic-robot-overflow",
+                    "index": 324
+                },
+                {
+                    "name": "logistic-robot-production",
+                    "index": 325
+                },
+                {
+                    "name": "logistic-robot-surplus",
+                    "index": 326
+                },
+                {
+                    "name": "long-handed-inserter-overflow",
+                    "index": 330
+                },
+                {
+                    "name": "long-handed-inserter-production",
+                    "index": 331
+                },
+                {
+                    "name": "long-handed-inserter-surplus",
+                    "index": 332
+                },
+                {
+                    "name": "medium-electric-pole-overflow",
+                    "index": 339
+                },
+                {
+                    "name": "medium-electric-pole-production",
+                    "index": 340
+                },
+                {
+                    "name": "medium-electric-pole-surplus",
+                    "index": 341
+                },
+                {
+                    "name": "modular-armor-overflow",
+                    "index": 345
+                },
+                {
+                    "name": "modular-armor-production",
+                    "index": 346
+                },
+                {
+                    "name": "modular-armor-surplus",
+                    "index": 347
+                },
+                {
+                    "name": "night-vision-equipment-overflow",
+                    "index": 348
+                },
+                {
+                    "name": "night-vision-equipment-production",
+                    "index": 349
+                },
+                {
+                    "name": "night-vision-equipment-surplus",
+                    "index": 350
+                },
+                {
+                    "name": "nuclear-fuel-overflow",
+                    "index": 351
+                },
+                {
+                    "name": "nuclear-fuel-production",
+                    "index": 352
+                },
+                {
+                    "name": "nuclear-fuel-surplus",
+                    "index": 353
+                },
+                {
+                    "name": "nuclear-reactor-overflow",
+                    "index": 354
+                },
+                {
+                    "name": "nuclear-reactor-production",
+                    "index": 355
+                },
+                {
+                    "name": "nuclear-reactor-surplus",
+                    "index": 356
+                },
+                {
+                    "name": "offshore-pump-overflow",
+                    "index": 357
+                },
+                {
+                    "name": "offshore-pump-production",
+                    "index": 358
+                },
+                {
+                    "name": "offshore-pump-surplus",
+                    "index": 359
+                },
+                {
+                    "name": "oil-refinery-overflow",
+                    "index": 360
+                },
+                {
+                    "name": "oil-refinery-production",
+                    "index": 361
+                },
+                {
+                    "name": "oil-refinery-surplus",
+                    "index": 362
+                },
+                {
+                    "name": "personal-laser-defense-equipment-overflow",
+                    "index": 363
+                },
+                {
+                    "name": "personal-laser-defense-equipment-production",
+                    "index": 364
+                },
+                {
+                    "name": "personal-laser-defense-equipment-surplus",
+                    "index": 365
+                },
+                {
+                    "name": "personal-roboport-equipment-overflow",
+                    "index": 366
+                },
+                {
+                    "name": "personal-roboport-equipment-production",
+                    "index": 367
+                },
+                {
+                    "name": "personal-roboport-equipment-surplus",
+                    "index": 368
+                },
+                {
+                    "name": "personal-roboport-mk2-equipment-overflow",
+                    "index": 369
+                },
+                {
+                    "name": "personal-roboport-mk2-equipment-production",
+                    "index": 370
+                },
+                {
+                    "name": "personal-roboport-mk2-equipment-surplus",
+                    "index": 371
+                },
+                {
+                    "name": "piercing-shotgun-shell-overflow",
+                    "index": 378
+                },
+                {
+                    "name": "piercing-shotgun-shell-production",
+                    "index": 379
+                },
+                {
+                    "name": "piercing-shotgun-shell-surplus",
+                    "index": 380
+                },
+                {
+                    "name": "pipe-to-ground-overflow",
+                    "index": 384
+                },
+                {
+                    "name": "pipe-to-ground-production",
+                    "index": 385
+                },
+                {
+                    "name": "pipe-to-ground-surplus",
+                    "index": 386
+                },
+                {
+                    "name": "pistol-overflow",
+                    "index": 387
+                },
+                {
+                    "name": "pistol-production",
+                    "index": 388
+                },
+                {
+                    "name": "pistol-surplus",
+                    "index": 389
+                },
+                {
+                    "name": "poison-capsule-overflow",
+                    "index": 393
+                },
+                {
+                    "name": "poison-capsule-production",
+                    "index": 394
+                },
+                {
+                    "name": "poison-capsule-surplus",
+                    "index": 395
+                },
+                {
+                    "name": "power-armor-mk2-overflow",
+                    "index": 396
+                },
+                {
+                    "name": "power-armor-mk2-production",
+                    "index": 397
+                },
+                {
+                    "name": "power-armor-mk2-surplus",
+                    "index": 398
+                },
+                {
+                    "name": "power-armor-overflow",
+                    "index": 399
+                },
+                {
+                    "name": "power-armor-production",
+                    "index": 400
+                },
+                {
+                    "name": "power-armor-surplus",
+                    "index": 401
+                },
+                {
+                    "name": "power-switch-overflow",
+                    "index": 402
+                },
+                {
+                    "name": "power-switch-production",
+                    "index": 403
+                },
+                {
+                    "name": "power-switch-surplus",
+                    "index": 404
+                },
+                {
+                    "name": "productivity-module-2-overflow",
+                    "index": 411
+                },
+                {
+                    "name": "productivity-module-2-production",
+                    "index": 412
+                },
+                {
+                    "name": "productivity-module-2-surplus",
+                    "index": 413
+                },
+                {
+                    "name": "productivity-module-3-overflow",
+                    "index": 414
+                },
+                {
+                    "name": "productivity-module-3-production",
+                    "index": 415
+                },
+                {
+                    "name": "productivity-module-3-surplus",
+                    "index": 416
+                },
+                {
+                    "name": "programmable-speaker-overflow",
+                    "index": 420
+                },
+                {
+                    "name": "programmable-speaker-production",
+                    "index": 421
+                },
+                {
+                    "name": "programmable-speaker-surplus",
+                    "index": 422
+                },
+                {
+                    "name": "pump-overflow",
+                    "index": 423
+                },
+                {
+                    "name": "pump-production",
+                    "index": 424
+                },
+                {
+                    "name": "pump-surplus",
+                    "index": 425
+                },
+                {
+                    "name": "pumpjack-overflow",
+                    "index": 426
+                },
+                {
+                    "name": "pumpjack-production",
+                    "index": 427
+                },
+                {
+                    "name": "pumpjack-surplus",
+                    "index": 428
+                },
+                {
+                    "name": "radar-overflow",
+                    "index": 429
+                },
+                {
+                    "name": "radar-production",
+                    "index": 430
+                },
+                {
+                    "name": "radar-surplus",
+                    "index": 431
+                },
+                {
+                    "name": "rail-chain-signal-overflow",
+                    "index": 432
+                },
+                {
+                    "name": "rail-chain-signal-production",
+                    "index": 433
+                },
+                {
+                    "name": "rail-chain-signal-surplus",
+                    "index": 434
+                },
+                {
+                    "name": "rail-signal-overflow",
+                    "index": 437
+                },
+                {
+                    "name": "rail-signal-production",
+                    "index": 438
+                },
+                {
+                    "name": "rail-signal-surplus",
+                    "index": 439
+                },
+                {
+                    "name": "red-wire-overflow",
+                    "index": 441
+                },
+                {
+                    "name": "red-wire-production",
+                    "index": 442
+                },
+                {
+                    "name": "red-wire-surplus",
+                    "index": 443
+                },
+                {
+                    "name": "refined-concrete-overflow",
+                    "index": 444
+                },
+                {
+                    "name": "refined-concrete-production",
+                    "index": 445
+                },
+                {
+                    "name": "refined-concrete-surplus",
+                    "index": 446
+                },
+                {
+                    "name": "refined-hazard-concrete-overflow",
+                    "index": 447
+                },
+                {
+                    "name": "refined-hazard-concrete-production",
+                    "index": 448
+                },
+                {
+                    "name": "refined-hazard-concrete-surplus",
+                    "index": 449
+                },
+                {
+                    "name": "repair-pack-overflow",
+                    "index": 450
+                },
+                {
+                    "name": "repair-pack-production",
+                    "index": 451
+                },
+                {
+                    "name": "repair-pack-surplus",
+                    "index": 452
+                },
+                {
+                    "name": "roboport-overflow",
+                    "index": 453
+                },
+                {
+                    "name": "roboport-production",
+                    "index": 454
+                },
+                {
+                    "name": "roboport-surplus",
+                    "index": 455
+                },
+                {
+                    "name": "rocket-fuel-overflow",
+                    "index": 456
+                },
+                {
+                    "name": "rocket-fuel-production",
+                    "index": 457
+                },
+                {
+                    "name": "rocket-fuel-surplus",
+                    "index": 458
+                },
+                {
+                    "name": "rocket-launcher-overflow",
+                    "index": 459
+                },
+                {
+                    "name": "rocket-launcher-production",
+                    "index": 460
+                },
+                {
+                    "name": "rocket-launcher-surplus",
+                    "index": 461
+                },
+                {
+                    "name": "rocket-overflow",
+                    "index": 462
+                },
+                {
+                    "name": "rocket-production",
+                    "index": 463
+                },
+                {
+                    "name": "rocket-silo-overflow",
+                    "index": 464
+                },
+                {
+                    "name": "rocket-silo-production",
+                    "index": 465
+                },
+                {
+                    "name": "rocket-silo-surplus",
+                    "index": 466
+                },
+                {
+                    "name": "rocket-surplus",
+                    "index": 467
+                },
+                {
+                    "name": "satellite-overflow",
+                    "index": 468
+                },
+                {
+                    "name": "satellite-production",
+                    "index": 469
+                },
+                {
+                    "name": "satellite-surplus",
+                    "index": 470
+                },
+                {
+                    "name": "shotgun-overflow",
+                    "index": 471
+                },
+                {
+                    "name": "shotgun-production",
+                    "index": 472
+                },
+                {
+                    "name": "shotgun-shell-overflow",
+                    "index": 473
+                },
+                {
+                    "name": "shotgun-shell-production",
+                    "index": 474
+                },
+                {
+                    "name": "shotgun-shell-surplus",
+                    "index": 475
+                },
+                {
+                    "name": "shotgun-surplus",
+                    "index": 476
+                },
+                {
+                    "name": "slowdown-capsule-overflow",
+                    "index": 477
+                },
+                {
+                    "name": "slowdown-capsule-production",
+                    "index": 478
+                },
+                {
+                    "name": "slowdown-capsule-surplus",
+                    "index": 479
+                },
+                {
+                    "name": "small-lamp-overflow",
+                    "index": 480
+                },
+                {
+                    "name": "small-lamp-production",
+                    "index": 481
+                },
+                {
+                    "name": "small-lamp-surplus",
+                    "index": 482
+                },
+                {
+                    "name": "solar-panel-equipment-overflow",
+                    "index": 483
+                },
+                {
+                    "name": "solar-panel-equipment-production",
+                    "index": 484
+                },
+                {
+                    "name": "solar-panel-equipment-surplus",
+                    "index": 485
+                },
+                {
+                    "name": "solar-panel-overflow",
+                    "index": 486
+                },
+                {
+                    "name": "solar-panel-production",
+                    "index": 487
+                },
+                {
+                    "name": "solar-panel-surplus",
+                    "index": 488
+                },
+                {
+                    "name": "speed-module-2-overflow",
+                    "index": 492
+                },
+                {
+                    "name": "speed-module-2-production",
+                    "index": 493
+                },
+                {
+                    "name": "speed-module-2-surplus",
+                    "index": 494
+                },
+                {
+                    "name": "speed-module-3-overflow",
+                    "index": 495
+                },
+                {
+                    "name": "speed-module-3-production",
+                    "index": 496
+                },
+                {
+                    "name": "speed-module-3-surplus",
+                    "index": 497
+                },
+                {
+                    "name": "speed-module-overflow",
+                    "index": 498
+                },
+                {
+                    "name": "speed-module-production",
+                    "index": 499
+                },
+                {
+                    "name": "speed-module-surplus",
+                    "index": 500
+                },
+                {
+                    "name": "spidertron-overflow",
+                    "index": 501
+                },
+                {
+                    "name": "spidertron-production",
+                    "index": 502
+                },
+                {
+                    "name": "spidertron-surplus",
+                    "index": 503
+                },
+                {
+                    "name": "splitter-overflow",
+                    "index": 504
+                },
+                {
+                    "name": "splitter-production",
+                    "index": 505
+                },
+                {
+                    "name": "splitter-surplus",
+                    "index": 506
+                },
+                {
+                    "name": "stack-filter-inserter-overflow",
+                    "index": 507
+                },
+                {
+                    "name": "stack-filter-inserter-production",
+                    "index": 508
+                },
+                {
+                    "name": "stack-filter-inserter-surplus",
+                    "index": 509
+                },
+                {
+                    "name": "stack-inserter-overflow",
+                    "index": 510
+                },
+                {
+                    "name": "stack-inserter-production",
+                    "index": 511
+                },
+                {
+                    "name": "stack-inserter-surplus",
+                    "index": 512
+                },
+                {
+                    "name": "steam-engine-overflow",
+                    "index": 513
+                },
+                {
+                    "name": "steam-engine-production",
+                    "index": 514
+                },
+                {
+                    "name": "steam-engine-surplus",
+                    "index": 515
+                },
+                {
+                    "name": "steam-turbine-overflow",
+                    "index": 519
+                },
+                {
+                    "name": "steam-turbine-production",
+                    "index": 520
+                },
+                {
+                    "name": "steam-turbine-surplus",
+                    "index": 521
+                },
+                {
+                    "name": "steel-chest-overflow",
+                    "index": 522
+                },
+                {
+                    "name": "steel-chest-production",
+                    "index": 523
+                },
+                {
+                    "name": "steel-chest-surplus",
+                    "index": 524
+                },
+                {
+                    "name": "steel-furnace-overflow",
+                    "index": 525
+                },
+                {
+                    "name": "steel-furnace-production",
+                    "index": 526
+                },
+                {
+                    "name": "steel-furnace-surplus",
+                    "index": 527
+                },
+                {
+                    "name": "stone-furnace-overflow",
+                    "index": 534
+                },
+                {
+                    "name": "stone-furnace-production",
+                    "index": 535
+                },
+                {
+                    "name": "stone-furnace-surplus",
+                    "index": 536
+                },
+                {
+                    "name": "storage-tank-overflow",
+                    "index": 540
+                },
+                {
+                    "name": "storage-tank-production",
+                    "index": 541
+                },
+                {
+                    "name": "storage-tank-surplus",
+                    "index": 542
+                },
+                {
+                    "name": "submachine-gun-overflow",
+                    "index": 543
+                },
+                {
+                    "name": "submachine-gun-production",
+                    "index": 544
+                },
+                {
+                    "name": "submachine-gun-surplus",
+                    "index": 545
+                },
+                {
+                    "name": "substation-overflow",
+                    "index": 546
+                },
+                {
+                    "name": "substation-production",
+                    "index": 547
+                },
+                {
+                    "name": "substation-surplus",
+                    "index": 548
+                },
+                {
+                    "name": "tank-overflow",
+                    "index": 555
+                },
+                {
+                    "name": "tank-production",
+                    "index": 556
+                },
+                {
+                    "name": "tank-surplus",
+                    "index": 557
+                },
+                {
+                    "name": "train-stop-overflow",
+                    "index": 558
+                },
+                {
+                    "name": "train-stop-production",
+                    "index": 559
+                },
+                {
+                    "name": "train-stop-surplus",
+                    "index": 560
+                },
+                {
+                    "name": "transport-belt-overflow",
+                    "index": 561
+                },
+                {
+                    "name": "transport-belt-production",
+                    "index": 562
+                },
+                {
+                    "name": "transport-belt-surplus",
+                    "index": 563
+                },
+                {
+                    "name": "underground-belt-overflow",
+                    "index": 564
+                },
+                {
+                    "name": "underground-belt-production",
+                    "index": 565
+                },
+                {
+                    "name": "underground-belt-surplus",
+                    "index": 566
+                },
+                {
+                    "name": "uranium-235-overflow",
+                    "index": 567
+                },
+                {
+                    "name": "uranium-235-production",
+                    "index": 568
+                },
+                {
+                    "name": "uranium-235-surplus",
+                    "index": 569
+                },
+                {
+                    "name": "uranium-238-overflow",
+                    "index": 570
+                },
+                {
+                    "name": "uranium-238-production",
+                    "index": 571
+                },
+                {
+                    "name": "uranium-238-surplus",
+                    "index": 572
+                },
+                {
+                    "name": "uranium-cannon-shell-overflow",
+                    "index": 573
+                },
+                {
+                    "name": "uranium-cannon-shell-production",
+                    "index": 574
+                },
+                {
+                    "name": "uranium-cannon-shell-surplus",
+                    "index": 575
+                },
+                {
+                    "name": "uranium-fuel-cell-overflow",
+                    "index": 576
+                },
+                {
+                    "name": "uranium-fuel-cell-production",
+                    "index": 577
+                },
+                {
+                    "name": "uranium-fuel-cell-surplus",
+                    "index": 578
+                },
+                {
+                    "name": "uranium-rounds-magazine-overflow",
+                    "index": 579
+                },
+                {
+                    "name": "uranium-rounds-magazine-production",
+                    "index": 580
+                },
+                {
+                    "name": "uranium-rounds-magazine-surplus",
+                    "index": 581
+                }
+            ]
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "achs": [
+                {
+                    "name": "circuit-veteran-1",
+                    "index": 21
+                },
+                {
+                    "name": "circuit-veteran-2",
+                    "index": 22
+                },
+                {
+                    "name": "circuit-veteran-3",
+                    "index": 23
+                },
+                {
+                    "name": "computer-age-1",
+                    "index": 24
+                },
+                {
+                    "name": "computer-age-2",
+                    "index": 25
+                },
+                {
+                    "name": "computer-age-3",
+                    "index": 26
+                },
+                {
+                    "name": "iron-throne-1",
+                    "index": 27
+                },
+                {
+                    "name": "iron-throne-2",
+                    "index": 28
+                },
+                {
+                    "name": "iron-throne-3",
+                    "index": 29
+                },
+                {
+                    "name": "advanced-circuit-overflow",
+                    "index": 45
+                },
+                {
+                    "name": "advanced-circuit-production",
+                    "index": 46
+                },
+                {
+                    "name": "advanced-circuit-surplus",
+                    "index": 47
+                },
+                {
+                    "name": "automation-science-pack-overflow",
+                    "index": 72
+                },
+                {
+                    "name": "automation-science-pack-production",
+                    "index": 73
+                },
+                {
+                    "name": "automation-science-pack-surplus",
+                    "index": 74
+                },
+                {
+                    "name": "battery-overflow",
+                    "index": 81
+                },
+                {
+                    "name": "battery-production",
+                    "index": 82
+                },
+                {
+                    "name": "battery-surplus",
+                    "index": 83
+                },
+                {
+                    "name": "chemical-science-pack-overflow",
+                    "index": 114
+                },
+                {
+                    "name": "chemical-science-pack-production",
+                    "index": 115
+                },
+                {
+                    "name": "chemical-science-pack-surplus",
+                    "index": 116
+                },
+                {
+                    "name": "copper-cable-overflow",
+                    "index": 135
+                },
+                {
+                    "name": "copper-cable-production",
+                    "index": 136
+                },
+                {
+                    "name": "copper-cable-surplus",
+                    "index": 137
+                },
+                {
+                    "name": "copper-plate-overflow",
+                    "index": 138
+                },
+                {
+                    "name": "copper-plate-production",
+                    "index": 139
+                },
+                {
+                    "name": "copper-plate-surplus",
+                    "index": 140
+                },
+                {
+                    "name": "crude-oil-overflow",
+                    "index": 141
+                },
+                {
+                    "name": "crude-oil-production",
+                    "index": 142
+                },
+                {
+                    "name": "crude-oil-surplus",
+                    "index": 143
+                },
+                {
+                    "name": "electric-engine-unit-overflow",
+                    "index": 168
+                },
+                {
+                    "name": "electric-engine-unit-production",
+                    "index": 169
+                },
+                {
+                    "name": "electric-engine-unit-surplus",
+                    "index": 170
+                },
+                {
+                    "name": "electric-furnace-overflow",
+                    "index": 171
+                },
+                {
+                    "name": "electric-furnace-production",
+                    "index": 172
+                },
+                {
+                    "name": "electric-furnace-surplus",
+                    "index": 173
+                },
+                {
+                    "name": "electronic-circuit-overflow",
+                    "index": 177
+                },
+                {
+                    "name": "electronic-circuit-production",
+                    "index": 178
+                },
+                {
+                    "name": "electronic-circuit-surplus",
+                    "index": 179
+                },
+                {
+                    "name": "engine-unit-overflow",
+                    "index": 186
+                },
+                {
+                    "name": "engine-unit-production",
+                    "index": 187
+                },
+                {
+                    "name": "engine-unit-surplus",
+                    "index": 188
+                },
+                {
+                    "name": "firearm-magazine-overflow",
+                    "index": 228
+                },
+                {
+                    "name": "firearm-magazine-production",
+                    "index": 229
+                },
+                {
+                    "name": "firearm-magazine-surplus",
+                    "index": 230
+                },
+                {
+                    "name": "flying-robot-frame-overflow",
+                    "index": 243
+                },
+                {
+                    "name": "flying-robot-frame-production",
+                    "index": 244
+                },
+                {
+                    "name": "flying-robot-frame-surplus",
+                    "index": 245
+                },
+                {
+                    "name": "grenade-overflow",
+                    "index": 255
+                },
+                {
+                    "name": "grenade-production",
+                    "index": 256
+                },
+                {
+                    "name": "grenade-surplus",
+                    "index": 257
+                },
+                {
+                    "name": "heavy-oil-overflow",
+                    "index": 273
+                },
+                {
+                    "name": "heavy-oil-production",
+                    "index": 274
+                },
+                {
+                    "name": "heavy-oil-surplus",
+                    "index": 275
+                },
+                {
+                    "name": "iron-gear-wheel-overflow",
+                    "index": 279
+                },
+                {
+                    "name": "iron-gear-wheel-production",
+                    "index": 280
+                },
+                {
+                    "name": "iron-gear-wheel-surplus",
+                    "index": 281
+                },
+                {
+                    "name": "iron-plate-overflow",
+                    "index": 282
+                },
+                {
+                    "name": "iron-plate-production",
+                    "index": 283
+                },
+                {
+                    "name": "iron-plate-surplus",
+                    "index": 284
+                },
+                {
+                    "name": "iron-stick-overflow",
+                    "index": 285
+                },
+                {
+                    "name": "iron-stick-production",
+                    "index": 286
+                },
+                {
+                    "name": "iron-stick-surplus",
+                    "index": 287
+                },
+                {
+                    "name": "light-oil-overflow",
+                    "index": 303
+                },
+                {
+                    "name": "light-oil-production",
+                    "index": 304
+                },
+                {
+                    "name": "light-oil-surplus",
+                    "index": 305
+                },
+                {
+                    "name": "logistic-science-pack-overflow",
+                    "index": 327
+                },
+                {
+                    "name": "logistic-science-pack-production",
+                    "index": 328
+                },
+                {
+                    "name": "logistic-science-pack-surplus",
+                    "index": 329
+                },
+                {
+                    "name": "low-density-structure-overflow",
+                    "index": 333
+                },
+                {
+                    "name": "low-density-structure-production",
+                    "index": 334
+                },
+                {
+                    "name": "low-density-structure-surplus",
+                    "index": 335
+                },
+                {
+                    "name": "lubricant-overflow",
+                    "index": 336
+                },
+                {
+                    "name": "lubricant-production",
+                    "index": 337
+                },
+                {
+                    "name": "lubricant-surplus",
+                    "index": 338
+                },
+                {
+                    "name": "military-science-pack-overflow",
+                    "index": 342
+                },
+                {
+                    "name": "military-science-pack-production",
+                    "index": 343
+                },
+                {
+                    "name": "military-science-pack-surplus",
+                    "index": 344
+                },
+                {
+                    "name": "petroleum-gas-overflow",
+                    "index": 372
+                },
+                {
+                    "name": "petroleum-gas-production",
+                    "index": 373
+                },
+                {
+                    "name": "petroleum-gas-surplus",
+                    "index": 374
+                },
+                {
+                    "name": "piercing-rounds-magazine-overflow",
+                    "index": 375
+                },
+                {
+                    "name": "piercing-rounds-magazine-production",
+                    "index": 376
+                },
+                {
+                    "name": "piercing-rounds-magazine-surplus",
+                    "index": 377
+                },
+                {
+                    "name": "pipe-overflow",
+                    "index": 381
+                },
+                {
+                    "name": "pipe-production",
+                    "index": 382
+                },
+                {
+                    "name": "pipe-surplus",
+                    "index": 383
+                },
+                {
+                    "name": "plastic-bar-overflow",
+                    "index": 390
+                },
+                {
+                    "name": "plastic-bar-production",
+                    "index": 391
+                },
+                {
+                    "name": "plastic-bar-surplus",
+                    "index": 392
+                },
+                {
+                    "name": "processing-unit-overflow",
+                    "index": 405
+                },
+                {
+                    "name": "processing-unit-production",
+                    "index": 406
+                },
+                {
+                    "name": "processing-unit-surplus",
+                    "index": 407
+                },
+                {
+                    "name": "production-science-pack-overflow",
+                    "index": 408
+                },
+                {
+                    "name": "production-science-pack-production",
+                    "index": 409
+                },
+                {
+                    "name": "production-science-pack-surplus",
+                    "index": 410
+                },
+                {
+                    "name": "productivity-module-overflow",
+                    "index": 417
+                },
+                {
+                    "name": "productivity-module-production",
+                    "index": 418
+                },
+                {
+                    "name": "productivity-module-surplus",
+                    "index": 419
+                },
+                {
+                    "name": "rail-overflow",
+                    "index": 435
+                },
+                {
+                    "name": "rail-production",
+                    "index": 436
+                },
+                {
+                    "name": "rail-surplus",
+                    "index": 440
+                },
+                {
+                    "name": "solid-fuel-overflow",
+                    "index": 489
+                },
+                {
+                    "name": "solid-fuel-production",
+                    "index": 490
+                },
+                {
+                    "name": "solid-fuel-surplus",
+                    "index": 491
+                },
+                {
+                    "name": "steam-overflow",
+                    "index": 516
+                },
+                {
+                    "name": "steam-production",
+                    "index": 517
+                },
+                {
+                    "name": "steam-surplus",
+                    "index": 518
+                },
+                {
+                    "name": "steel-plate-overflow",
+                    "index": 528
+                },
+                {
+                    "name": "steel-plate-production",
+                    "index": 529
+                },
+                {
+                    "name": "steel-plate-surplus",
+                    "index": 530
+                },
+                {
+                    "name": "stone-brick-overflow",
+                    "index": 531
+                },
+                {
+                    "name": "stone-brick-production",
+                    "index": 532
+                },
+                {
+                    "name": "stone-brick-surplus",
+                    "index": 533
+                },
+                {
+                    "name": "stone-wall-overflow",
+                    "index": 537
+                },
+                {
+                    "name": "stone-wall-production",
+                    "index": 538
+                },
+                {
+                    "name": "stone-wall-surplus",
+                    "index": 539
+                },
+                {
+                    "name": "sulfur-overflow",
+                    "index": 549
+                },
+                {
+                    "name": "sulfur-production",
+                    "index": 550
+                },
+                {
+                    "name": "sulfur-surplus",
+                    "index": 551
+                },
+                {
+                    "name": "sulfuric-acid-overflow",
+                    "index": 552
+                },
+                {
+                    "name": "sulfuric-acid-production",
+                    "index": 553
+                },
+                {
+                    "name": "sulfuric-acid-surplus",
+                    "index": 554
+                },
+                {
+                    "name": "utility-science-pack-overflow",
+                    "index": 582
+                },
+                {
+                    "name": "utility-science-pack-production",
+                    "index": 583
+                },
+                {
+                    "name": "utility-science-pack-surplus",
+                    "index": 584
+                },
+                {
+                    "name": "water-overflow",
+                    "index": 585
+                },
+                {
+                    "name": "water-production",
+                    "index": 586
+                },
+                {
+                    "name": "water-surplus",
+                    "index": 587
+                }
+            ]
+        },
+        {
+            "type": "research-achievement",
+            "achs": [
+                {
+                    "name": "eco-unfriendly",
+                    "index": 2
+                },
+                {
+                    "name": "tech-maniac",
+                    "index": 3
+                }
+            ]
+        },
+        {
+            "type": "train-path-achievement",
+            "achs": [
+                {
+                    "name": "trans-factorio-express",
+                    "index": 14
+                }
+            ]
+        }
+    ],
+    "content": [
+        {
+            "type": "build-entity-achievement",
+            "name": "getting-on-track",
+            "data": "HEX-02000000"
+        },
+        {
+            "type": "group-attack-achievement",
+            "name": "it-stinks-and-they-dont-like-it",
+            "data": "HEX-01000000"
+        },
+        {
+            "type": "construct-with-robots-achievement",
+            "name": "automated-construction",
+            "data": [
+                972,
+                "HEX-d4630000"
+            ]
+        },
+        {
+            "type": "deconstruct-with-robots-achievement",
+            "name": "automated-cleanup",
+            "data": 1724
+        },
+        {
+            "type": "deliver-by-robots-achievement",
+            "name": "you-have-got-a-package",
+            "data": "HEX-00000000003dd340"
+        },
+        {
+            "type": "deliver-by-robots-achievement",
+            "name": "delivery-service",
+            "data": "HEX-00000000003dd340"
+        },
+        {
+            "type": "train-path-achievement",
+            "name": "trans-factorio-express",
+            "data": 4087.8102863369804
+        },
+        {
+            "type": "player-damaged-achievement",
+            "name": "watch-your-step",
+            "data": [
+                60.96666717529297,
+                true
+            ]
+        },
+        {
+            "type": "player-damaged-achievement",
+            "name": "golem",
+            "data": [
+                3166.0,
+                true
+            ]
+        },
+        {
+            "type": "build-entity-achievement",
+            "name": "getting-on-track-like-a-pro",
+            "data": "HEX-00000000"
+        },
+        {
+            "type": "produce-achievement",
+            "name": "mass-production-1",
+            "data": 14219.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "mass-production-2",
+            "data": 1042902.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "mass-production-3",
+            "data": 11196932.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "circuit-veteran-1",
+            "data": 6489.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "circuit-veteran-2",
+            "data": 11008.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "circuit-veteran-3",
+            "data": 27857.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "computer-age-1",
+            "data": 883.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "computer-age-2",
+            "data": 1375.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "computer-age-3",
+            "data": 5217.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-throne-1",
+            "data": 54903.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-throne-2",
+            "data": 206714.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-throne-3",
+            "data": 415766.0
+        },
+        {
+            "type": "dont-use-entity-in-energy-production-achievement",
+            "name": "solaris",
+            "data": 127669371994.875
+        },
+        {
+            "type": "kill-achievement",
+            "name": "steamrolled",
+            "data": 0.0
+        },
+        {
+            "type": "kill-achievement",
+            "name": "pyromaniac",
+            "data": 68986.0
+        },
+        {
+            "type": "kill-achievement",
+            "name": "run-forrest-run",
+            "data": 148.0
+        },
+        {
+            "type": "combat-robot-count",
+            "name": "minions",
+            "data": 0
+        },
+        {
+            "type": "research-achievement",
+            "name": "eco-unfriendly",
+            "data": "NoData"
+        },
+        {
+            "type": "finish-the-game-achievement",
+            "name": "smoke-me-a-kipper-i-will-be-back-for-breakfast",
+            "data": "HEX-00000000"
+        },
+        {
+            "type": "dont-use-entity-in-energy-production-achievement",
+            "name": "steam-all-the-way",
+            "data": 0.0
+        },
+        {
+            "type": "achievement",
+            "name": "so-long-and-thanks-for-all-the-fish",
+            "data": "NoData"
+        },
+        {
+            "type": "construct-with-robots-achievement",
+            "name": "you-are-doing-it-right",
+            "data": [
+                76,
+                "HEX-4b000000"
+            ]
+        },
+        {
+            "type": "research-achievement",
+            "name": "tech-maniac",
+            "data": "NoData"
+        },
+        {
+            "type": "produce-achievement",
+            "name": "car-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "locomotive-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "satellite-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "tank-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-chest-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-chest-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-chest-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "accumulator-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "accumulator-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "accumulator-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "advanced-circuit-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "advanced-circuit-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "advanced-circuit-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "arithmetic-combinator-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "arithmetic-combinator-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "arithmetic-combinator-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "artillery-shell-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "artillery-shell-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "artillery-shell-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "artillery-turret-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "artillery-turret-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "artillery-turret-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "artillery-wagon-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "artillery-wagon-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "artillery-wagon-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "assembling-machine-1-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "assembling-machine-1-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "assembling-machine-1-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "assembling-machine-2-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "assembling-machine-2-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "assembling-machine-2-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "assembling-machine-3-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "assembling-machine-3-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "assembling-machine-3-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "atomic-bomb-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "atomic-bomb-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "atomic-bomb-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "automation-science-pack-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "automation-science-pack-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "automation-science-pack-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "battery-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "battery-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "battery-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "battery-mk2-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "battery-mk2-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "battery-mk2-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "battery-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "battery-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "battery-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "beacon-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "beacon-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "beacon-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "belt-immunity-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "belt-immunity-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "belt-immunity-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "big-electric-pole-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "big-electric-pole-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "big-electric-pole-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "boiler-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "boiler-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "boiler-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "burner-inserter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "burner-inserter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "burner-inserter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "burner-mining-drill-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "burner-mining-drill-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "burner-mining-drill-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cannon-shell-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cannon-shell-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cannon-shell-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "car-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "car-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cargo-wagon-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cargo-wagon-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cargo-wagon-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "centrifuge-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "centrifuge-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "centrifuge-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "chemical-science-pack-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "chemical-science-pack-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "chemical-science-pack-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cliff-explosives-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cliff-explosives-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cliff-explosives-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cluster-grenade-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cluster-grenade-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "cluster-grenade-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "combat-shotgun-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "combat-shotgun-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "combat-shotgun-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "concrete-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "concrete-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "concrete-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "constant-combinator-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "constant-combinator-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "constant-combinator-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "construction-robot-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "construction-robot-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "construction-robot-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-cable-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-cable-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-cable-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-plate-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-plate-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-plate-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "crude-oil-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "crude-oil-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "crude-oil-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "decider-combinator-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "decider-combinator-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "decider-combinator-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "defender-capsule-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "defender-capsule-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "defender-capsule-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "destroyer-capsule-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "destroyer-capsule-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "destroyer-capsule-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "discharge-defense-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "discharge-defense-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "discharge-defense-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "distractor-capsule-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "distractor-capsule-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "distractor-capsule-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "effectivity-module-2-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "effectivity-module-2-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "effectivity-module-2-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "effectivity-module-3-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "effectivity-module-3-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "effectivity-module-3-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "effectivity-module-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "effectivity-module-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "effectivity-module-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "electric-engine-unit-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "electric-engine-unit-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "electric-engine-unit-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "electric-furnace-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "electric-furnace-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "electric-furnace-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "electric-mining-drill-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "electric-mining-drill-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "electric-mining-drill-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "electronic-circuit-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "electronic-circuit-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "electronic-circuit-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "energy-shield-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "energy-shield-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "energy-shield-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "energy-shield-mk2-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "energy-shield-mk2-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "energy-shield-mk2-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "engine-unit-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "engine-unit-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "engine-unit-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "exoskeleton-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "exoskeleton-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "exoskeleton-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosive-cannon-shell-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosive-cannon-shell-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosive-cannon-shell-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosive-rocket-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosive-rocket-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosive-rocket-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosive-uranium-cannon-shell-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosive-uranium-cannon-shell-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosive-uranium-cannon-shell-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosives-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosives-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "explosives-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-splitter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-splitter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-splitter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-transport-belt-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-transport-belt-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-transport-belt-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-underground-belt-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-underground-belt-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-underground-belt-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-inserter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-inserter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-inserter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-splitter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-splitter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-splitter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-transport-belt-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-transport-belt-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-transport-belt-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-underground-belt-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-underground-belt-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-underground-belt-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "filter-inserter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "filter-inserter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "filter-inserter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "firearm-magazine-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "firearm-magazine-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "firearm-magazine-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "flamethrower-ammo-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "flamethrower-ammo-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "flamethrower-ammo-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "flamethrower-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "flamethrower-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "flamethrower-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "flamethrower-turret-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "flamethrower-turret-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "flamethrower-turret-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fluid-wagon-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fluid-wagon-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fluid-wagon-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "flying-robot-frame-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "flying-robot-frame-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "flying-robot-frame-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fusion-reactor-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fusion-reactor-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fusion-reactor-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gate-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gate-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gate-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-wire-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-wire-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-wire-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "grenade-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "grenade-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "grenade-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gun-turret-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gun-turret-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gun-turret-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "hazard-concrete-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "hazard-concrete-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "hazard-concrete-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "heat-exchanger-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "heat-exchanger-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "heat-exchanger-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "heat-pipe-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "heat-pipe-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "heat-pipe-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "heavy-armor-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "heavy-armor-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "heavy-armor-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "heavy-oil-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "heavy-oil-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "heavy-oil-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "inserter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "inserter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "inserter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-gear-wheel-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-gear-wheel-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-gear-wheel-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-plate-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-plate-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-plate-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-stick-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-stick-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-stick-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "lab-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "lab-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "lab-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "land-mine-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "land-mine-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "land-mine-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "landfill-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "landfill-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "landfill-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "laser-turret-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "laser-turret-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "laser-turret-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "light-armor-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "light-armor-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "light-armor-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "light-oil-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "light-oil-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "light-oil-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "locomotive-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "locomotive-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-active-provider-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-active-provider-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-active-provider-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-buffer-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-buffer-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-buffer-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-passive-provider-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-passive-provider-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-passive-provider-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-requester-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-requester-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-requester-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-storage-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-storage-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-chest-storage-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-robot-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-robot-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "logistic-robot-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "logistic-science-pack-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "logistic-science-pack-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "logistic-science-pack-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "long-handed-inserter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "long-handed-inserter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "long-handed-inserter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "low-density-structure-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "low-density-structure-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "low-density-structure-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "lubricant-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "lubricant-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "lubricant-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "medium-electric-pole-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "medium-electric-pole-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "medium-electric-pole-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "military-science-pack-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "military-science-pack-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "military-science-pack-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "modular-armor-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "modular-armor-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "modular-armor-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "night-vision-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "night-vision-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "night-vision-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "nuclear-fuel-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "nuclear-fuel-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "nuclear-fuel-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "nuclear-reactor-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "nuclear-reactor-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "nuclear-reactor-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "offshore-pump-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "offshore-pump-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "offshore-pump-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "oil-refinery-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "oil-refinery-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "oil-refinery-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "personal-laser-defense-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "personal-laser-defense-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "personal-laser-defense-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "personal-roboport-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "personal-roboport-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "personal-roboport-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "personal-roboport-mk2-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "personal-roboport-mk2-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "personal-roboport-mk2-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "petroleum-gas-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "petroleum-gas-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "petroleum-gas-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "piercing-rounds-magazine-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "piercing-rounds-magazine-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "piercing-rounds-magazine-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "piercing-shotgun-shell-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "piercing-shotgun-shell-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "piercing-shotgun-shell-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "pipe-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "pipe-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "pipe-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pipe-to-ground-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pipe-to-ground-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pipe-to-ground-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pistol-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pistol-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pistol-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "plastic-bar-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "plastic-bar-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "plastic-bar-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "poison-capsule-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "poison-capsule-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "poison-capsule-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "power-armor-mk2-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "power-armor-mk2-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "power-armor-mk2-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "power-armor-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "power-armor-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "power-armor-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "power-switch-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "power-switch-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "power-switch-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "processing-unit-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "processing-unit-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "processing-unit-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "production-science-pack-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "production-science-pack-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "production-science-pack-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "productivity-module-2-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "productivity-module-2-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "productivity-module-2-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "productivity-module-3-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "productivity-module-3-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "productivity-module-3-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "productivity-module-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "productivity-module-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "productivity-module-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "programmable-speaker-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "programmable-speaker-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "programmable-speaker-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pump-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pump-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pump-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pumpjack-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pumpjack-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pumpjack-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "radar-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "radar-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "radar-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-chain-signal-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-chain-signal-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-chain-signal-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "rail-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "rail-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-signal-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-signal-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-signal-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "rail-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-wire-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-wire-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-wire-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "refined-concrete-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "refined-concrete-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "refined-concrete-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "refined-hazard-concrete-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "refined-hazard-concrete-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "refined-hazard-concrete-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "repair-pack-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "repair-pack-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "repair-pack-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "roboport-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "roboport-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "roboport-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-fuel-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-fuel-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-fuel-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-launcher-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-launcher-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-launcher-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-silo-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-silo-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-silo-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rocket-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "satellite-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "satellite-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "shotgun-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "shotgun-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "shotgun-shell-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "shotgun-shell-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "shotgun-shell-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "shotgun-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "slowdown-capsule-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "slowdown-capsule-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "slowdown-capsule-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "small-lamp-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "small-lamp-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "small-lamp-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "solar-panel-equipment-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "solar-panel-equipment-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "solar-panel-equipment-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "solar-panel-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "solar-panel-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "solar-panel-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "solid-fuel-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "solid-fuel-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "solid-fuel-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "speed-module-2-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "speed-module-2-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "speed-module-2-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "speed-module-3-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "speed-module-3-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "speed-module-3-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "speed-module-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "speed-module-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "speed-module-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "spidertron-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "spidertron-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "spidertron-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "splitter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "splitter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "splitter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stack-filter-inserter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stack-filter-inserter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stack-filter-inserter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stack-inserter-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stack-inserter-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stack-inserter-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steam-engine-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steam-engine-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steam-engine-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steam-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steam-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steam-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steam-turbine-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steam-turbine-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steam-turbine-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-chest-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-chest-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-chest-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-furnace-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-furnace-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-furnace-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steel-plate-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steel-plate-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steel-plate-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "stone-brick-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "stone-brick-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "stone-brick-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stone-furnace-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stone-furnace-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stone-furnace-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "stone-wall-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "stone-wall-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "stone-wall-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "storage-tank-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "storage-tank-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "storage-tank-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "submachine-gun-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "submachine-gun-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "submachine-gun-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "substation-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "substation-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "substation-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "sulfur-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "sulfur-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "sulfur-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "sulfuric-acid-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "sulfuric-acid-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "sulfuric-acid-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "tank-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "tank-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "train-stop-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "train-stop-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "train-stop-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "transport-belt-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "transport-belt-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "transport-belt-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "underground-belt-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "underground-belt-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "underground-belt-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-235-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-235-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-235-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-238-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-238-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-238-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-cannon-shell-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-cannon-shell-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-cannon-shell-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-fuel-cell-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-fuel-cell-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-fuel-cell-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-rounds-magazine-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-rounds-magazine-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-rounds-magazine-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "utility-science-pack-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "utility-science-pack-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "utility-science-pack-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "water-overflow",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "water-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "water-surplus",
+            "data": 0.0
+        },
+        {
+            "type": "build-entity-achievement",
+            "name": "dig-into-deep",
+            "data": "HEX-01000000"
+        },
+        {
+            "type": "build-entity-achievement",
+            "name": "big-brother",
+            "data": "HEX-1c000000"
+        },
+        {
+            "type": "build-entity-achievement",
+            "name": "death-on-wheels",
+            "data": "HEX-00000000"
+        },
+        {
+            "type": "produce-achievement",
+            "name": "10000-ai-core",
+            "data": 3538.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "10000-matter",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "100000-matter",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "1000000-matter",
+            "data": 0.0
+        },
+        {
+            "type": "build-entity-achievement",
+            "name": "chcs-bird-murderer",
+            "data": "HEX-00000000"
+        },
+        {
+            "type": "produce-achievement",
+            "name": "Inserter-Madness-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "Inserter-Madness-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "Inserter-Madness-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "Inserter-Madness-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "Inserter-Madness-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "ass-machine-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "ass-machine-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "ass-machine-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "ass-machine-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "ass-machine-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "big-red-machine-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "big-red-machine-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "big-red-machine-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "big-red-machine-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "big-red-machine-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "black-science-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "black-science-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "black-science-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "black-science-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "black-science-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "black-science-6",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-belt-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-belt-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-belt-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-belt-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-belt-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-card-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-card-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-card-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-card-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-card-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-inserter-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-inserter-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-inserter-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-inserter-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-inserter-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-science-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-science-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-science-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-science-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-science-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "blue-science-6",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "concrete-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "concrete-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "concrete-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "concrete-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "concrete-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "copper-bar-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "copper-bar-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "copper-bar-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "copper-bar-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "copper-bar-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "copper-bar-6",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "copper-bar-7",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "copper-bar-8",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-10",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-6",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-7",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-8",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "copper-madness-9",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-drill-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-drill-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-drill-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-drill-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-drill-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-furn-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-furn-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-furn-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-furn-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "elec-furn-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-splitter-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-splitter-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-splitter-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-splitter-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-splitter-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "express-underground-belt-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-splitter-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-splitter-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-splitter-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-splitter-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "fast-splitter-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gear-production-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gear-production-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gear-production-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gear-production-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "gear-production-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-card-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-card-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-card-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-card-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-card-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "green-machine-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "green-machine-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "green-machine-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "green-machine-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "green-machine-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-science-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-science-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-science-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-science-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-science-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "green-science-6",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "grenade-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "grenade-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "grenade-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "grenade-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "grenade-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-bar-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-bar-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-bar-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-bar-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-bar-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-bar-6",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-bar-7",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "iron-bar-8",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-10",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-6",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-7",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-8",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "iron-madness-9",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "keep-on-smurfin-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "keep-on-smurfin-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "keep-on-smurfin-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "keep-on-smurfin-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "keep-on-smurfin-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pipe-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pipe-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pipe-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pipe-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "pipe-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "plastic-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "plastic-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "plastic-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "plastic-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "plastic-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "purple-science-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "purple-science-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "purple-science-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "purple-science-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "purple-science-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "purple-science-6",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "rail-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-belt-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-belt-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-belt-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-belt-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-belt-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-card-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-card-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-card-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-card-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-card-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-science-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-science-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-science-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-science-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-science-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-science-6",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-under-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-under-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-under-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-under-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "red-under-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "splitter-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "splitter-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "splitter-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "splitter-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "splitter-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steam-production",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steel-madness-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steel-madness-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steel-madness-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steel-madness-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "name": "steel-madness-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-plate-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-plate-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-plate-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-plate-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "steel-plate-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stone-brick-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stone-brick-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stone-brick-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stone-brick-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "stone-brick-5",
+            "data": 0.0
+        },
+        {
+            "type": "train-path-achievement",
+            "name": "train-madness-1",
+            "data": 0.0
+        },
+        {
+            "type": "train-path-achievement",
+            "name": "train-madness-2",
+            "data": 0.0
+        },
+        {
+            "type": "train-path-achievement",
+            "name": "train-madness-3",
+            "data": 0.0
+        },
+        {
+            "type": "train-path-achievement",
+            "name": "train-madness-4",
+            "data": 0.0
+        },
+        {
+            "type": "train-path-achievement",
+            "name": "train-madness-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "underground-belt-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "underground-belt-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "underground-belt-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "underground-belt-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "underground-belt-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-235-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-235-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-235-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-235-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-235-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-238-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-238-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-238-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-238-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-238-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-ore-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-ore-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-ore-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-ore-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "uranium-ore-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "yellow-science-1",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "yellow-science-2",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "yellow-science-3",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "yellow-science-4",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "yellow-science-5",
+            "data": 0.0
+        },
+        {
+            "type": "produce-achievement",
+            "name": "yellow-science-6",
+            "data": 0.0
+        }
+    ],
+    "tracked": [
+        9,
+        0,
+        17,
+        31,
+        35,
+        69,
+        71,
+        70,
+        278,
+        277,
+        276
+    ]
+}
