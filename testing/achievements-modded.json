@@ -1,0 +1,247 @@
+{
+    "version": [
+        1,
+        1,
+        109,
+        0
+    ],
+    "header": [
+        {
+            "type": "achievement",
+            "achs": [
+                {
+                    "name": "so-long-and-thanks-for-all-the-fish",
+                    "index": 38
+                }
+            ]
+        },
+        {
+            "type": "build-entity-achievement",
+            "achs": [
+                {
+                    "name": "getting-on-track",
+                    "index": 1
+                },
+                {
+                    "name": "getting-on-track-like-a-pro",
+                    "index": 14
+                }
+            ]
+        },
+        {
+            "type": "combat-robot-count",
+            "achs": [
+                {
+                    "name": "minions",
+                    "index": 31
+                }
+            ]
+        },
+        {
+            "type": "construct-with-robots-achievement",
+            "achs": [
+                {
+                    "name": "automated-construction",
+                    "index": 6
+                },
+                {
+                    "name": "you-are-doing-it-right",
+                    "index": 7
+                }
+            ]
+        },
+        {
+            "type": "deconstruct-with-robots-achievement",
+            "achs": [
+                {
+                    "name": "automated-cleanup",
+                    "index": 8
+                }
+            ]
+        },
+        {
+            "type": "deliver-by-robots-achievement",
+            "achs": [
+                {
+                    "name": "you-have-got-a-package",
+                    "index": 9
+                },
+                {
+                    "name": "delivery-service",
+                    "index": 10
+                }
+            ]
+        },
+        {
+            "type": "dont-build-entity-achievement",
+            "achs": [
+                {
+                    "name": "raining-bullets",
+                    "index": 34
+                },
+                {
+                    "name": "logistic-network-embargo",
+                    "index": 35
+                }
+            ]
+        },
+        {
+            "type": "dont-craft-manually-achievement",
+            "achs": [
+                {
+                    "name": "lazy-bastard",
+                    "index": 32
+                }
+            ]
+        },
+        {
+            "type": "dont-use-entity-in-energy-production-achievement",
+            "achs": [
+                {
+                    "name": "solaris",
+                    "index": 27
+                },
+                {
+                    "name": "steam-all-the-way",
+                    "index": 33
+                }
+            ]
+        },
+        {
+            "type": "finish-the-game-achievement",
+            "achs": [
+                {
+                    "name": "smoke-me-a-kipper-i-will-be-back-for-breakfast",
+                    "index": 4
+                },
+                {
+                    "name": "no-time-for-chitchat",
+                    "index": 36
+                },
+                {
+                    "name": "there-is-no-spoon",
+                    "index": 37
+                }
+            ]
+        },
+        {
+            "type": "group-attack-achievement",
+            "achs": [
+                {
+                    "name": "it-stinks-and-they-dont-like-it",
+                    "index": 5
+                }
+            ]
+        },
+        {
+            "type": "kill-achievement",
+            "achs": [
+                {
+                    "name": "steamrolled",
+                    "index": 28
+                },
+                {
+                    "name": "pyromaniac",
+                    "index": 29
+                },
+                {
+                    "name": "run-forrest-run",
+                    "index": 30
+                }
+            ]
+        },
+        {
+            "type": "player-damaged-achievement",
+            "achs": [
+                {
+                    "name": "watch-your-step",
+                    "index": 12
+                },
+                {
+                    "name": "golem",
+                    "index": 13
+                }
+            ]
+        },
+        {
+            "type": "produce-achievement",
+            "achs": [
+                {
+                    "name": "mass-production-1",
+                    "index": 15
+                },
+                {
+                    "name": "mass-production-2",
+                    "index": 16
+                },
+                {
+                    "name": "mass-production-3",
+                    "index": 17
+                }
+            ]
+        },
+        {
+            "type": "produce-per-hour-achievement",
+            "achs": [
+                {
+                    "name": "circuit-veteran-1",
+                    "index": 18
+                },
+                {
+                    "name": "circuit-veteran-2",
+                    "index": 19
+                },
+                {
+                    "name": "circuit-veteran-3",
+                    "index": 20
+                },
+                {
+                    "name": "computer-age-1",
+                    "index": 21
+                },
+                {
+                    "name": "computer-age-2",
+                    "index": 22
+                },
+                {
+                    "name": "computer-age-3",
+                    "index": 23
+                },
+                {
+                    "name": "iron-throne-1",
+                    "index": 24
+                },
+                {
+                    "name": "iron-throne-2",
+                    "index": 25
+                },
+                {
+                    "name": "iron-throne-3",
+                    "index": 26
+                }
+            ]
+        },
+        {
+            "type": "research-achievement",
+            "achs": [
+                {
+                    "name": "eco-unfriendly",
+                    "index": 2
+                },
+                {
+                    "name": "tech-maniac",
+                    "index": 3
+                }
+            ]
+        },
+        {
+            "type": "train-path-achievement",
+            "achs": [
+                {
+                    "name": "trans-factorio-express",
+                    "index": 11
+                }
+            ]
+        }
+    ]
+}

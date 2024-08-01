@@ -186,6 +186,7 @@ def readArray(
     f: io.BufferedReader | io.BytesIO,
     objectDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],
     spaceOptimized=False,
+    **kwargs,
 ) -> list:
     """Reads variable amount of bytes and interprets them as an array.
 
@@ -202,7 +203,7 @@ def readArray(
         arrayLength = readUInt(f)
     array = []
     for i in range(arrayLength):
-        array.append(objectDecoder(f))
+        array.append(objectDecoder(f, **kwargs))
     return array
 
 
@@ -251,3 +252,6 @@ def readVersionString(
     if returnString:
         return f"{major}.{minor}.{patch}.{dev}"
     return [major, minor, patch, dev]
+
+def hexed(b: bytes) -> str:
+    return "HEX-"+b.hex()
