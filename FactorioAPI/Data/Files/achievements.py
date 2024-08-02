@@ -1,4 +1,5 @@
 import io
+import json
 from typing import Any, Callable
 from FactorioAPI.Data.IO.read import (
     hexed,
@@ -17,8 +18,11 @@ def readShortArray(
     f: io.BufferedReader | io.BytesIO,
     objectDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],
     **kwargs,
+    objectDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],
+    **kwargs,
 ) -> list:
     """Reads variable amount of bytes and interprets them as an array.
+    For arrays whose length is stored as a short
     For arrays whose length is stored as a short
 
     Args:
@@ -30,10 +34,13 @@ def readShortArray(
         list: The bytes read as an array.
     """
     arrayLength = readShort(f)
+    arrayLength = readShort(f)
     array = []
     for i in range(arrayLength):
         array.append(objectDecoder(f, **kwargs))
+        array.append(objectDecoder(f, **kwargs))
     return array
+
 
 
 def readHeader(f: io.BufferedReader | io.BytesIO) -> dict:
@@ -218,8 +225,11 @@ def readModdedAchievements(f: io.BufferedReader | io.BytesIO) -> dict:
 # arrays use short rather than int for length
 
 # version sting
+# version sting
 # random false bool
 # array of length 17, that should be of type string
+# space optimized string that says "achievement"
+# array of length 1 , unknown of type, assuming string
 # space optimized string that says "achievement"
 # array of length 1 , unknown of type, assuming string
 # space optimized string that says "so-long-and-thanks-for-all-the-fish"
