@@ -18,8 +18,6 @@ def readShortArray(
     f: io.BufferedReader | io.BytesIO,
     objectDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],
     **kwargs,
-    objectDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],
-    **kwargs,
 ) -> list:
     """Reads variable amount of bytes and interprets them as an array.
     For arrays whose length is stored as a short
