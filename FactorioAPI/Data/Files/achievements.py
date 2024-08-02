@@ -40,7 +40,6 @@ def readShortArray(
     return array
 
 
-
 def readHeader(f: io.BufferedReader | io.BytesIO) -> dict:
     achType = readString(f, spaceOptimized=True)
     achsOfType = readShortArray(f, readHeaderSubojbect)
@@ -128,7 +127,7 @@ def getIndexLink(achs: list) -> dict:
 def getTracked(f: io.BufferedReader | io.BytesIO) -> list:
     """Reads a variable amount of bytes and interprets them as a series of shorts that represent tracked achievements
     Note: reads until the end of the file
-    
+
 
     Args:
         f (io.BufferedReader | io.BytesIO): the file to read from

@@ -188,7 +188,7 @@ def readArray(
     f: io.BufferedReader | io.BytesIO,
     objectDecoder: Callable[[io.BufferedReader | io.BytesIO], Any],
     spaceOptimized=False,
-    **kwargs
+    **kwargs,
 ) -> list:
     """Reads variable amount of bytes and interprets them as an array.
 
