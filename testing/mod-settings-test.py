@@ -11,7 +11,7 @@ from FactorioAPI.Data.Files.modSettings import (
     writeModSettings,
 )
 
-from FactorioAPI.Data.Utils import getFileHash
+from FactorioAPI.Utils import getFileHash
 
 
 file = "./testing/mod-settings.dat"

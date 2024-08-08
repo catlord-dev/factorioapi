@@ -6,7 +6,7 @@ sys.path.append("./")
 
 # read and write the mod settings to make sure it is the same
 from FactorioAPI.Data.Files.modSettings import readModSettings, writeModSettings
-from FactorioAPI.Data.Utils import getDataHash, getFileHash
+from FactorioAPI.Utils import getDataHash, getFileHash
 
 
 modSettingsFile = "./tests/mod-settings.dat"
