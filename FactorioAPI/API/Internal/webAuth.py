@@ -2,6 +2,8 @@ import json
 import os
 import requests
 
+from FactorioAPI.Utils import getDefaultHeaders
+
 
 def getToken(username: str, password: str, emailCode: str = "") -> str:
     """
@@ -20,7 +22,7 @@ def getToken(username: str, password: str, emailCode: str = "") -> str:
     request = requests.post(
         "https://auth.factorio.com/api-login",
         params={"username": username, "password": password, "email_code": emailCode},
-        headers={"Content-Type": "application/json"},
+        headers=getDefaultHeaders(),
         timeout=10,
         verify=True,
     )

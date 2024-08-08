@@ -2,6 +2,8 @@ import json
 import os
 import requests
 
+from FactorioAPI.Utils import getDefaultHeaders
+
 
 def getGames(username: str, token: str) -> list:
     """
@@ -18,6 +20,7 @@ def getGames(username: str, token: str) -> list:
         "https://multiplayer.factorio.com/get-games",
         params={"username": username, "token": token},
         verify=True,
+        headers=getDefaultHeaders(),
     )
 
     servers = request.json()
